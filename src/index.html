@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>Angular 2 First App</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/all.js"></script>
+</head>
+<body>
+  <my-app>loading...</my-app>
+  <script>
+     System.config({
+        packages: {'app': {defaultExtension: 'js'}}
+    });
+    System.import('app/app');
+  </script>
+</body>
+</html>

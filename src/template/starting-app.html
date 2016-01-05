@@ -1,0 +1,8 @@
+<h1>{{ listTitle }}</h1>
+<ul *ng-if="persons">
+	<li *ng-for="#person of persons">
+		<p>Name: {{ person.name }}</p>
+		<p>Age: {{ person.age }}</p>
+		<p>Job: {{ person.job }}</p>
+	</li>
+</ul>
